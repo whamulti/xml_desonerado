@@ -8,7 +8,7 @@ from datetime import datetime
 # ============================================================
 
 # Pasta onde estão os arquivos XML
-PASTA_XML = os.path.dirname(os.path.abspath(__file__))
+PASTA_XML = os.path.join(os.path.dirname(os.path.abspath(__file__)), "FILIAIS")
 
 # Novo valor que será colocado em todos os campos <vICMSDeson>
 NOVO_VALOR = "00.00"
